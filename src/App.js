@@ -182,7 +182,7 @@ function LoadingState() {
   useEffect(() => {
     const t = setInterval(() => setStep((s) => (s + 1) % steps.length), 1600);
     return () => clearInterval(t);
-  }, []);
+  }, [steps.length]);
   return (
     <div style={{ textAlign: "center", padding: "60px 20px" }}>
       <div style={{ width: 56, height: 56, borderRadius: "50%", border: `3px solid ${C.orangeFaint}`, borderTop: `3px solid ${C.orange}`, animation: "spin 0.8s linear infinite", margin: "0 auto 24px" }} />
