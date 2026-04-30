@@ -8,11 +8,6 @@
   Turn cold outreach into something that actually gets replies.
 </p>
 
-
-# ColdReach AI
-
-Turn cold outreach into something that actually gets replies.
-
 ColdReach AI is an AI-powered tool that generates **highly personalized cold emails** based on a company’s website and a target person’s profile — built to eliminate generic outreach and improve response rates.
 
 **Live Demo:** https://coldreach-ai-eight.vercel.app/
