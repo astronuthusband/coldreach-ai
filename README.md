@@ -1,3 +1,14 @@
+<p align="center">
+  <img src="logo.png" alt="ColdReach AI Logo" width="120" />
+</p>
+
+<h1 align="center">ColdReach AI</h1>
+
+<p align="center">
+  Turn cold outreach into something that actually gets replies.
+</p>
+
+
 # ColdReach AI
 
 Turn cold outreach into something that actually gets replies.
