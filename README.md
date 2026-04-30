@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# ColdReach AI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Turn cold outreach into something that actually gets replies.
 
-## Available Scripts
+ColdReach AI is an AI-powered tool that generates **highly personalized cold emails** based on a company’s website and a target person’s profile — built to eliminate generic outreach and improve response rates.
 
-In the project directory, you can run:
+**Live Demo:** https://coldreach-ai-eight.vercel.app/
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## The Problem
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Most cold emails fail because they’re:
+- Generic  
+- Obviously templated  
+- Lacking real context  
 
-### `npm test`
+People ignore them instantly.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## The Solution
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ColdReach AI analyzes:
+- A company’s website  
+- A target person’s role or bio  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Then generates:
+- Personalized cold emails  
+- High-converting subject lines  
+- Follow-up messages  
+- A “cringe score” to filter out spammy messaging  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The result: outreach that actually feels human.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- AI-generated personalized cold emails (3 variations)  
+- 5 subject line suggestions  
+- 2 follow-up messages  
+- Tone control (formal → bold)  
+- “Cringe Score” system (detects generic/spammy language)  
+- Clean, minimal UI built for speed and clarity  
+- Copy-to-clipboard for quick use  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Tech Stack
 
-## Learn More
+- Frontend: React  
+- Styling: Tailwind CSS  
+- Backend: API routes (serverless)  
+- AI Model: Llama 3.3 via Groq  
+- Deployment: Vercel  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## How It Works
 
-### Code Splitting
+1. Paste a company website URL  
+2. Add a target person’s bio or description  
+3. Select your tone  
+4. Generate outreach instantly  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The system combines context + intent to produce emails that feel tailored — not mass-produced.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Why I Built This
 
-### Making a Progressive Web App
+Cold outreach is still one of the most effective ways to generate opportunities — but most people do it badly.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+I wanted to build a tool that:
+- forces better quality messaging  
+- reduces reliance on templates  
+- blends **engineering + marketing thinking**  
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## Getting Started (Local Development)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/yourusername/coldreach-ai.git
+cd coldreach-ai
+npm install
+npm run dev
